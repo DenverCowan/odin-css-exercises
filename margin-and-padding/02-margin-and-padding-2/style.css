@@ -7,21 +7,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
+  font-size: 16px;
+  display: block;
   background: #e3f4ff;
+  margin: 8px;
+  padding: 8px;
 }
 
 .content {
+  display: block;
   background: #e3f4ff;
+  margin: 8px;
+  padding: 8px 16px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 8px;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
+  display: block;
+  margin-left: 140px;
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
 }
+/* I was not able to get this one done 100% correctly without the 
+assistance of the self-check exercises */
