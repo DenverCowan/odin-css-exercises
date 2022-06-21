@@ -1,5 +1,6 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,7 +11,21 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+/* I struggled with getting the text underneath the pictures and aligned properly on this
+one. I learned that if you wrap all the elements in a container with the display flex 
+property that it will take care of that for you*/
 
 /* do not edit this footer */
 .footer {
